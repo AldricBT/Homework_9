@@ -29,6 +29,7 @@ namespace Homework_9
         {             
             string inputstring = InputString.Text;
             string[] words = inputstring.Split(' ');
+            OutputList.Items.Clear();
             foreach (string word in words)
             {
                 OutputList.Items.Add(word);
